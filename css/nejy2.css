@@ -1,0 +1,266 @@
+
+*{
+		margin:0;
+		padding:0;
+	}
+
+	/*头部的背景图片*/
+	.topbg{
+		width:100%;
+		height:403px;
+		background: url("../img/top1.jpg") no-repeat center 0 #47C6BD;
+	}
+
+	/*中间部分的样式  1.导航栏 2.表格 3.老师介绍 4 标题*/
+
+
+	/*  1.导航栏样式   */
+	.forml{
+		width:100%;
+		margin:auto;
+	}
+	.forml1{
+		width:1080px;
+		height:60px;
+		margin:auto;
+	}
+	.forml1 ul{
+		list-style:none;
+	}
+	.forml1 ul li{
+		float:left;
+		width:207px;
+		height:55px;
+		margin-right:5px;
+		border-radius:0 0 10px 10px;
+		font:23px/55px "黑体";
+		text-align:center;
+		color:white;
+	}
+	.forml1-1{
+		background-image: url(img/f1.jpg);
+	}
+	.forml1-2{
+		background-image: url(img/f2.jpg);
+	}
+	.forml1-3{
+		background-image: url(img/f3.jpg);
+	}
+	.forml1-4{
+		background-image: url(img/f4.jpg);
+	}
+	.forml1-5{
+		background-image: url(img/f5.jpg);
+	}
+	.formauto{
+		position:relative;
+		width:1100px;
+		height:443px;
+		margin:45px auto;
+	}
+	.forml2{
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:300px;
+		border:4px solid #EAEAEA;
+		padding:20px 10px 20px 10px;
+		overflow:hidden;
+	}
+
+
+	/*  2.表格   */
+	.table{
+		border-collapse:collapse;
+		text-align:center;
+		font:10px/37px "微软雅黑";
+		border-color:#d9d9d9;
+	}
+	.table .tr1 td{
+		background:#E4F2FF;
+		border:0px;
+	}
+
+	
+	/*  3.老师介绍  */
+	.teacher{
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	.teacher ul li{
+		position:relative;
+		width:465px;
+		height:100px;
+		margin-bottom:23px;
+		list-style:none;
+	}
+	.teacher ul li div{
+		position:absolute;
+		top:5px;
+		left:164px;
+	}
+	.teacher img{
+		width:155px;
+		height:100px;
+	}
+	.teacher ul li p{
+		margin-bottom:18px;
+		font:15px/15px "宋体";
+	}
+	.teacher ul li .p1{
+		font-weight:bold;
+	}
+	.teacher ul li .p2{
+		width:70px;
+		height:25px;
+		background:#00ADE2;
+		line-height:25px;
+		text-align:center;
+	}
+	.teacher ul li .p3{
+		background:#F8A845;
+	}
+
+	
+
+	/*  4 标题   */
+	.centerline{
+		position:absolute;
+		top:390px;
+		left:440px;
+		width:220px;
+		height:50px;
+		text-align:center;
+		color:#017FD3;
+		overflow:hidden;
+	}
+
+
+	/*   1.诺恩动态 2.办学理念 3.企业文化 */
+
+
+	.center1{
+	width:100%;
+	height:1055px;
+	
+	}
+	.center1-1,.center1-2,.center1-3{
+		position:relative;
+		width:1366px;
+		height:350px;
+		margin:auto;
+	}
+	.center1-2{
+		background:#F4F4F4;
+	}
+	.libox1,.libox1-2{
+		position:absolute;
+		top:30px;
+		left:160px;
+	}
+	.libox1-1{
+		position:absolute;
+		top:30px;
+		right:160px;
+	}
+	.libox2,.libox2-2{
+		position:absolute;
+		top:90px;
+		left:600px;
+		width:300px:
+		height:300px;
+	}
+	.libox2-1{
+		position:absolute;
+		top:90px;
+		right:600px;
+		width:300px:
+		height:300px;
+	}
+	.libox2 ul li,.libox2-1 ul li,.libox2-2 ul li{
+		margin-bottom:10px;
+		margin-left:20px;
+		font:14px/20px "黑体";
+	}
+	.libox2 ul h4,.libox2-1 ul h4,.libox2-2 ul h4{
+		width:70px;
+		height:30px;
+		color:#00ACE1;
+	}
+	.libox2-1 ul h4{
+		color:#FFC146;
+	}
+	.libox2-2 ul h4{
+		color:#7F64B5;
+	}
+	.libox3,.libox3-1,.libox3-2{
+		position:absolute;
+		bottom:40px;
+		left:600px;
+		width:100px;
+		height:30px;
+		background:#00ACE1;
+		border-radius:5px;
+		text-align:center;
+		line-height:30px;
+		font-size:8px;
+		color:white;
+	}
+	.libox3-1{
+		position:absolute;
+		bottom:40px;
+		left:227px;
+		background:#FFC146;
+	}
+	.libox3-2{
+		background:#7F64B5;
+	}
+
+
+	/*   底部有两个   1.底部一   2.底部二 */
+
+
+	/*     1.底部一    */
+	.foot{
+		width:100%;
+		height:30px;
+		background:#c0c0c0;
+	}
+	.foot1{
+		width:400px;
+		height:30px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	.foot1 ul li{
+		float:left;
+		width:70px;
+		height:20px;
+		list-style:none;
+		text-align:center;
+		margin-left:-5px;
+		margin-right:10px;
+		margin-top:5px;
+		font:5px/20px "宋体";
+	}
+	.foot1li{
+		border-right:2px solid black;
+	}
+
+
+
+	/*    2.底部二   */
+	.footbox1{
+		width:100%;
+		height:50px;
+		background:#dfdfdf;
+		overflow:hidden;
+	}
+	.footbox2{
+		width:400px;
+		height:50px;
+		margin:auto;
+		padding:20px 0px 0px 10px;
+		font-size:6px;
+	}
