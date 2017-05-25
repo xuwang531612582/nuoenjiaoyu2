@@ -98,16 +98,37 @@
 			right:15px;
 		}
 		.box4-1{
-			position:absolute;
-			top:0px;
-			left:20px;
 			width:940px;
-			padding:10px;
+			height:15px;
+			margin:10px auto;
 			border-bottom:1px solid #D1D1D1;
 		}
 		.box4-1 p{
 			font:15px/15px "微软雅黑";
 			color:#676767;
 		}
-
-		
+		.box42{
+			width:952px;
+			height:600px;
+			margin:20px auto;
+			border:1px dashed red;
+			background:#F4F4F4;
+		}
+		.box42 ul li{
+			float:left;
+			width:230px;
+			height:290px;
+			border:1px dashed blue;
+			list-style:none;
+			margin:3px;
+		}
+		.box42 ul li img{
+			width:100%;
+		}
+		.box42-1 h3{
+			margin:10px;
+		}
+		.box42-1 p{
+			font-size:14px;
+			margin:10px 3px 5px 3px;
+		}
